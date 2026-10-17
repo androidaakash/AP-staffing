@@ -81,7 +81,6 @@ export function SmoothScroll() {
       if (url.pathname === window.location.pathname) {
         event.preventDefault();
         scrollToHash(url.hash);
-        window.history.pushState(null, "", `${url.pathname}${url.hash}`);
         return;
       }
 
@@ -90,8 +89,8 @@ export function SmoothScroll() {
       router.push(url.pathname);
     };
 
-    document.addEventListener("click", handleClick);
-    return () => document.removeEventListener("click", handleClick);
+    document.addEventListener("click", handleClick, true);
+    return () => document.removeEventListener("click", handleClick, true);
   }, [router]);
 
   useEffect(() => {
@@ -99,6 +98,9 @@ export function SmoothScroll() {
     pendingHash = null;
 
     if (hash) {
+      if (window.location.hash.length > 1) {
+        window.history.replaceState(null, "", window.location.pathname + window.location.search);
+      }
       const timer = window.setTimeout(() => scrollToHash(hash), 150);
       return () => window.clearTimeout(timer);
     }
