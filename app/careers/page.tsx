@@ -34,7 +34,7 @@ export default function CareersPage() {
       >
         <div className="flex flex-wrap items-center gap-space-md">
           <a
-            className="inline-flex items-center gap-space-xs px-space-lg py-space-sm bg-amber-cta hover:bg-amber-hover text-surface-container-lowest font-label-md text-label-md font-bold rounded-lg shadow-xl hover:-translate-y-0.5 transition-all"
+            className="inline-flex items-center gap-space-xs px-space-lg py-space-sm bg-violet-cta hover:bg-violet-cta-hover text-surface-container-lowest font-label-md text-label-md font-bold rounded-lg shadow-xl hover:-translate-y-0.5 transition-all"
             href="#open-roles"
           >
             <Icon name="work" className="text-[18px]" />
@@ -53,10 +53,10 @@ export default function CareersPage() {
       <section className="w-full py-space-3xl bg-surface">
         <Container className="grid grid-cols-1 lg:grid-cols-2 gap-space-2xl items-center">
           <div className="space-y-space-md">
-            <div className="font-label-caps text-label-caps text-emerald-accent tracking-widest uppercase font-bold">
+            <div className="font-label-caps text-label-caps text-violet-accent tracking-widest uppercase font-bold">
               WHY AAKASH AP
             </div>
-            <h2 className="font-headline-lg text-headline-lg text-forest-deep font-bold">
+            <h2 className="font-headline-lg text-headline-lg text-plum-deep font-bold">
               Real Clients. Real Ownership. Real Progression.
             </h2>
             {CAREERS_INTRO.paragraphs.map((paragraph) => (
@@ -67,7 +67,7 @@ export default function CareersPage() {
           </div>
           <div className="relative aspect-[16/11] rounded-2xl overflow-hidden shadow-lg">
             <Image
-              alt="High-performing global virtual talent collaborating in an upscale modern workspace with dual monitor setups and deep forest green accents."
+              alt="High-performing global virtual talent collaborating in an upscale modern workspace with dual monitor setups and deep accent tones."
               className="object-cover"
               src="/images/hero-workspace.jpg"
               fill
@@ -80,10 +80,10 @@ export default function CareersPage() {
       <section className="w-full py-space-3xl bg-slate-surface">
         <Container className="space-y-space-2xl">
           <div className="text-center max-w-2xl mx-auto space-y-space-sm">
-            <div className="font-label-caps text-label-caps text-emerald-accent tracking-widest uppercase font-bold">
+            <div className="font-label-caps text-label-caps text-violet-accent tracking-widest uppercase font-bold">
               OUR CULTURE
             </div>
-            <h2 className="font-headline-xl text-headline-xl text-forest-deep font-bold">
+            <h2 className="font-headline-xl text-headline-xl text-plum-deep font-bold">
               What It Feels Like to Work Here.
             </h2>
           </div>
@@ -93,7 +93,7 @@ export default function CareersPage() {
                 className="bg-surface-container-lowest p-space-xl rounded-xl shadow-sm hover:shadow-lg transition-all space-y-space-md group"
                 key={pillar.title}
               >
-                <div className="w-12 h-12 rounded-lg bg-forest-deep text-on-primary flex items-center justify-center group-hover:bg-emerald-accent transition-colors">
+                <div className="w-12 h-12 rounded-lg bg-plum-deep text-on-primary flex items-center justify-center group-hover:bg-violet-accent transition-colors">
                   <Icon name={pillar.icon} className="text-[26px]" />
                 </div>
                 <h3 className="font-headline-sm text-headline-sm text-slate-text-main font-bold">{pillar.title}</h3>
@@ -107,10 +107,10 @@ export default function CareersPage() {
       <section className="w-full py-space-3xl bg-surface">
         <Container className="space-y-space-2xl">
           <div className="max-w-2xl space-y-space-sm">
-            <div className="font-label-caps text-label-caps text-emerald-accent tracking-widest uppercase font-bold">
+            <div className="font-label-caps text-label-caps text-violet-accent tracking-widest uppercase font-bold">
               BENEFITS
             </div>
-            <h2 className="font-headline-xl text-headline-xl text-forest-deep font-bold">
+            <h2 className="font-headline-xl text-headline-xl text-plum-deep font-bold">
               Looked After, So You Can Deliver.
             </h2>
             <p className="font-body-md text-body-md text-slate-text-muted">
@@ -120,7 +120,7 @@ export default function CareersPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-space-lg">
             {BENEFITS.map((benefit) => (
               <div className="flex items-start gap-space-md bg-slate-surface rounded-xl p-space-lg" key={benefit.title}>
-                <div className="w-10 h-10 rounded-lg bg-forest-deep text-on-primary flex items-center justify-center shrink-0">
+                <div className="w-10 h-10 rounded-lg bg-plum-deep text-on-primary flex items-center justify-center shrink-0">
                   <Icon name={benefit.icon} className="text-[20px]" />
                 </div>
                 <div className="space-y-1">
@@ -138,10 +138,10 @@ export default function CareersPage() {
       <section className="w-full py-space-3xl bg-slate-surface scroll-mt-24" id="open-roles">
         <Container className="space-y-space-2xl max-w-5xl">
           <div className="text-center space-y-space-sm">
-            <div className="font-label-caps text-label-caps text-emerald-accent tracking-widest uppercase font-bold">
+            <div className="font-label-caps text-label-caps text-violet-accent tracking-widest uppercase font-bold">
               OPEN ROLES
             </div>
-            <h2 className="font-headline-xl text-headline-xl text-forest-deep font-bold">
+            <h2 className="font-headline-xl text-headline-xl text-plum-deep font-bold">
               Current Opportunities.
             </h2>
             <p className="font-body-md text-body-md text-slate-text-muted max-w-2xl mx-auto">
@@ -156,17 +156,17 @@ export default function CareersPage() {
       <section className="w-full py-space-3xl bg-surface">
         <Container className="space-y-space-2xl">
           <div className="text-center max-w-2xl mx-auto space-y-space-sm">
-            <div className="font-label-caps text-label-caps text-emerald-accent tracking-widest uppercase font-bold">
+            <div className="font-label-caps text-label-caps text-violet-accent tracking-widest uppercase font-bold">
               HOW WE HIRE
             </div>
-            <h2 className="font-headline-xl text-headline-xl text-forest-deep font-bold">
+            <h2 className="font-headline-xl text-headline-xl text-plum-deep font-bold">
               A Process That Respects Your Time.
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg">
             {HIRING_STEPS.map((step) => (
               <div className="bg-surface-container-lowest p-space-xl rounded-xl shadow-sm space-y-space-md" key={step.number}>
-                <span className="font-display-hero text-[32px] font-extrabold text-emerald-accent/40">
+                <span className="font-display-hero text-[32px] font-extrabold text-violet-accent/40">
                   {step.number}
                 </span>
                 <h3 className="font-headline-sm text-headline-sm text-slate-text-main font-bold">{step.title}</h3>
@@ -174,7 +174,7 @@ export default function CareersPage() {
               </div>
             ))}
           </div>
-          <div className="bg-forest-deep text-on-primary rounded-2xl p-space-xl md:p-space-2xl flex flex-col md:flex-row items-start md:items-center justify-between gap-space-lg">
+          <div className="bg-plum-deep text-on-primary rounded-2xl p-space-xl md:p-space-2xl flex flex-col md:flex-row items-start md:items-center justify-between gap-space-lg">
             <div className="space-y-1">
               <div className="font-headline-sm text-headline-sm text-surface-container-lowest font-bold">
                 Don't see your role listed?
@@ -184,7 +184,7 @@ export default function CareersPage() {
               </p>
             </div>
             <a
-              className="inline-flex items-center gap-space-xs px-space-lg py-space-sm bg-amber-cta hover:bg-amber-hover text-surface-container-lowest font-label-md text-label-md font-bold rounded-lg transition-colors whitespace-nowrap"
+              className="inline-flex items-center gap-space-xs px-space-lg py-space-sm bg-violet-cta hover:bg-violet-cta-hover text-surface-container-lowest font-label-md text-label-md font-bold rounded-lg transition-colors whitespace-nowrap"
               href={`mailto:${CAREERS_EMAIL}?subject=${encodeURIComponent("Speculative application")}`}
             >
               <span>Email Our Talent Team</span>

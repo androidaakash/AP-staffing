@@ -111,13 +111,13 @@ export function BookingModal({ open, onClose }: BookingModalProps) {
   };
 
   const inputClass = (hasError: boolean) =>
-    `w-full px-space-md py-2.5 rounded-lg bg-surface-container-lowest border text-slate-text-main focus:outline-none focus:ring-[3px] focus:ring-forest-deep/15 ${
-      hasError ? "border-error focus:border-error" : "border-slate-border focus:border-forest-deep"
+    `w-full px-space-md py-2.5 rounded-lg bg-surface-container-lowest border text-slate-text-main focus:outline-none focus:ring-[3px] focus:ring-plum-deep/15 ${
+      hasError ? "border-error focus:border-error" : "border-slate-border focus:border-plum-deep"
     }`;
 
   return (
     <div
-      className={`fixed inset-0 z-[60] flex items-center justify-center p-4 bg-forest-deep/60 backdrop-blur-sm transition-opacity duration-300 ease-out ${
+      className={`fixed inset-0 z-[60] flex items-center justify-center p-4 bg-plum-deep/60 backdrop-blur-sm transition-opacity duration-300 ease-out ${
         visible ? "opacity-100" : "opacity-0"
       }`}
       role="dialog"
@@ -143,10 +143,10 @@ export function BookingModal({ open, onClose }: BookingModalProps) {
 
         {submitted ? (
           <div className="py-space-xl text-center space-y-space-md">
-            <div className="mx-auto w-14 h-14 rounded-full bg-emerald-accent/10 text-emerald-accent flex items-center justify-center">
+            <div className="mx-auto w-14 h-14 rounded-full bg-violet-accent/10 text-violet-accent flex items-center justify-center">
               <Icon name="check" className="text-[30px]" />
             </div>
-            <h3 id="booking-modal-title" className="font-headline-lg text-headline-lg text-forest-deep font-bold">
+            <h3 id="booking-modal-title" className="font-headline-lg text-headline-lg text-plum-deep font-bold">
               Request Received
             </h3>
             <p className="font-body-sm text-body-sm text-slate-text-muted max-w-md mx-auto leading-relaxed">
@@ -154,7 +154,7 @@ export function BookingModal({ open, onClose }: BookingModalProps) {
               calendar invite will follow shortly.
             </p>
             <button
-              className="px-space-xl py-space-sm bg-emerald-accent hover:bg-forest-mid text-on-primary font-label-md text-label-md font-semibold rounded-lg shadow-md transition-colors"
+              className="px-space-xl py-space-sm bg-violet-accent hover:bg-plum-mid text-on-primary font-label-md text-label-md font-semibold rounded-lg shadow-md transition-colors"
               onClick={onClose}
               type="button"
             >
@@ -164,10 +164,10 @@ export function BookingModal({ open, onClose }: BookingModalProps) {
         ) : (
           <>
             <div className="space-y-space-xs pr-space-xl">
-              <div className="inline-flex items-center gap-1 font-label-caps text-label-caps text-emerald-accent uppercase font-bold">
+              <div className="inline-flex items-center gap-1 font-label-caps text-label-caps text-violet-accent uppercase font-bold">
                 <span>SCHEDULE EXECUTIVE ADVISORY</span>
               </div>
-              <h3 id="booking-modal-title" className="font-headline-lg text-headline-lg text-forest-deep font-bold">
+              <h3 id="booking-modal-title" className="font-headline-lg text-headline-lg text-plum-deep font-bold">
                 Book a Discovery Call
               </h3>
               <p className="font-body-sm text-body-sm text-slate-text-muted">
@@ -180,7 +180,7 @@ export function BookingModal({ open, onClose }: BookingModalProps) {
               <button
                 className={`duration-btn py-2 text-center rounded-md text-body-sm font-semibold transition-all ${
                   duration === "15"
-                    ? "bg-surface-container-lowest text-forest-deep shadow-sm"
+                    ? "bg-surface-container-lowest text-plum-deep shadow-sm"
                     : "text-slate-text-muted hover:text-slate-text-main"
                 }`}
                 onClick={() => setDuration("15")}
@@ -191,7 +191,7 @@ export function BookingModal({ open, onClose }: BookingModalProps) {
               <button
                 className={`duration-btn py-2 text-center rounded-md text-body-sm font-semibold transition-all ${
                   duration === "30"
-                    ? "bg-surface-container-lowest text-forest-deep shadow-sm"
+                    ? "bg-surface-container-lowest text-plum-deep shadow-sm"
                     : "text-slate-text-muted hover:text-slate-text-main"
                 }`}
                 onClick={() => setDuration("30")}
@@ -293,11 +293,11 @@ export function BookingModal({ open, onClose }: BookingModalProps) {
               ) : null}
               <div className="pt-space-xs flex flex-col sm:flex-row sm:items-center sm:justify-between gap-space-sm">
                 <span className="font-body-sm text-xs text-slate-text-muted flex items-center gap-1">
-                  <Icon name="lock" className="text-[16px] text-emerald-accent" />
+                  <Icon name="lock" className="text-[16px] text-violet-accent" />
                   Encrypted confidential advisory
                 </span>
                 <button
-                  className="px-space-xl py-space-sm bg-emerald-accent hover:bg-forest-mid text-on-primary font-label-md text-label-md font-semibold rounded-lg shadow-md transition-colors disabled:opacity-70 disabled:cursor-not-allowed"
+                  className="px-space-xl py-space-sm bg-violet-accent hover:bg-plum-mid text-on-primary font-label-md text-label-md font-semibold rounded-lg shadow-md transition-colors disabled:opacity-70 disabled:cursor-not-allowed"
                   type="submit"
                   disabled={submitting}
                 >

@@ -19,7 +19,7 @@ export function Footer() {
                 width={32}
                 height={32}
               />
-              <span className="font-headline-sm text-headline-sm tracking-tight text-forest-deep uppercase">
+              <span className="font-headline-sm text-headline-sm tracking-tight text-plum-deep uppercase">
                 {SITE.name}
               </span>
             </div>
@@ -30,12 +30,12 @@ export function Footer() {
             </p>
             <div className="space-y-space-xs font-body-sm text-body-sm text-slate-text-muted">
               <div className="flex items-center gap-space-xs">
-                <Icon name="public" className="text-[18px] text-forest-deep" />
+                <Icon name="public" className="text-[18px] text-plum-deep" />
                 <span>Offshore Centers: {SITE.offices}</span>
               </div>
               <div className="flex items-center gap-space-xs">
-                <Icon name="mail" className="text-[18px] text-forest-deep" />
-                <a className="hover:text-forest-deep" href={CONTACT.emailHref}>
+                <Icon name="mail" className="text-[18px] text-plum-deep" />
+                <a className="hover:text-plum-deep" href={CONTACT.emailHref}>
                   {SITE.email}
                 </a>
               </div>
@@ -44,14 +44,14 @@ export function Footer() {
 
           {FOOTER_COLUMNS.map((column) => (
             <div key={column.heading}>
-              <div className="font-label-caps text-label-caps uppercase text-forest-deep tracking-wider mb-space-md">
+              <div className="font-label-caps text-label-caps uppercase text-plum-deep tracking-wider mb-space-md">
                 {column.heading}
               </div>
               <ul className="space-y-space-sm font-body-sm text-body-sm text-slate-text-muted">
                 {column.links.map((link) => (
                   <li key={link.label}>
                     <a
-                      className="hover:text-forest-deep transition-colors"
+                      className="hover:text-plum-deep transition-colors"
                       data-path={link.dataPath}
                       href={link.href}
                     >
@@ -64,32 +64,32 @@ export function Footer() {
           ))}
 
           <div>
-            <div className="font-label-caps text-label-caps uppercase text-forest-deep tracking-wider mb-space-md">
+            <div className="font-label-caps text-label-caps uppercase text-plum-deep tracking-wider mb-space-md">
               Governance &amp; Desk
             </div>
             <ul className="space-y-space-sm font-body-sm text-body-sm text-slate-text-muted">
               <li className="flex items-center gap-1">
-                <Icon name="verified_user" className="text-[16px] text-forest-mid" />
+                <Icon name="verified_user" className="text-[16px] text-plum-mid" />
                 <span>ISO 27001 Certified</span>
               </li>
               <li className="flex items-center gap-1">
-                <Icon name="security" className="text-[16px] text-forest-mid" />
+                <Icon name="security" className="text-[16px] text-plum-mid" />
                 <span>GDPR &amp; SOC2 Compliant</span>
               </li>
               <li className="pt-space-xs font-semibold text-slate-text-main">Regional Desks:</li>
               <li>
-                <a className="hover:text-forest-deep transition-colors" href={CONTACT.phoneUKHref}>
+                <a className="hover:text-plum-deep transition-colors" href={CONTACT.phoneUKHref}>
                   UK Desk: {SITE.phoneUK}
                 </a>
               </li>
               <li>
-                <a className="hover:text-forest-deep transition-colors" href={CONTACT.phoneUSHref}>
+                <a className="hover:text-plum-deep transition-colors" href={CONTACT.phoneUSHref}>
                   US Desk: {SITE.phoneUS}
                 </a>
               </li>
               <li>
                 <BookCallButton
-                  className="inline-flex items-center gap-1 text-emerald-accent font-semibold hover:underline"
+                  className="inline-flex items-center gap-1 text-violet-accent font-semibold hover:underline"
                   label="Executive Advisory Portal"
                   icon="arrow_forward"
                   iconClassName="text-[16px]"
@@ -104,7 +104,7 @@ export function Footer() {
           <div className="flex flex-wrap items-center gap-space-md">
             {LEGAL_LINKS.map((link) => (
               <a
-                className="hover:text-forest-deep transition-colors"
+                className="hover:text-plum-deep transition-colors"
                 data-path={link.dataPath}
                 href={link.href}
                 key={link.label}

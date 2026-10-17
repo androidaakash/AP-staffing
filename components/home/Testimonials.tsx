@@ -25,10 +25,10 @@ export function Testimonials() {
       <Container className="space-y-space-2xl">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
           <div className="space-y-space-xs max-w-xl">
-            <div className="font-label-caps text-label-caps text-emerald-accent tracking-widest uppercase font-bold">
+            <div className="font-label-caps text-label-caps text-violet-accent tracking-widest uppercase font-bold">
               {TESTIMONIALS.label}
             </div>
-            <h2 className="font-headline-xl text-headline-xl text-forest-deep font-bold">
+            <h2 className="font-headline-xl text-headline-xl text-plum-deep font-bold">
               {TESTIMONIALS.heading}
             </h2>
             <p className="font-body-md text-body-md text-slate-text-muted">{TESTIMONIALS.description}</p>
@@ -36,7 +36,7 @@ export function Testimonials() {
           <div className="flex items-center gap-space-xs">
             <button
               aria-label="Previous Testimonial"
-              className="p-2.5 rounded-lg bg-surface-container-lowest hover:bg-slate-surface text-forest-deep shadow-sm transition-colors"
+              className="p-2.5 rounded-lg bg-surface-container-lowest hover:bg-slate-surface text-plum-deep shadow-sm transition-colors"
               onClick={() => shift(-1)}
               type="button"
             >
@@ -44,7 +44,7 @@ export function Testimonials() {
             </button>
             <button
               aria-label="Next Testimonial"
-              className="p-2.5 rounded-lg bg-surface-container-lowest hover:bg-slate-surface text-forest-deep shadow-sm transition-colors"
+              className="p-2.5 rounded-lg bg-surface-container-lowest hover:bg-slate-surface text-plum-deep shadow-sm transition-colors"
               onClick={() => shift(1)}
               type="button"
             >
@@ -65,7 +65,7 @@ export function Testimonials() {
               key={item.name}
             >
               <div className="space-y-space-sm">
-                <div className="flex items-center text-amber-cta gap-1">
+                <div className="flex items-center text-violet-cta gap-1">
                   {Array.from({ length: 5 }).map((_, index) => (
                     <Icon name="star" className="text-[18px]" key={index} />
                   ))}
@@ -75,13 +75,13 @@ export function Testimonials() {
                 </p>
               </div>
               <div className="pt-space-md flex items-center gap-space-sm">
-                <div className="w-11 h-11 rounded-full bg-forest-deep/10 text-forest-deep flex items-center justify-center font-bold">
+                <div className="w-11 h-11 rounded-full bg-plum-deep/10 text-plum-deep flex items-center justify-center font-bold">
                   {item.initials}
                 </div>
                 <div>
                   <div className="font-headline-sm text-[16px] text-slate-text-main font-bold">{item.name}</div>
                   <div className="font-body-sm text-body-sm text-slate-text-muted">{item.role}</div>
-                  <div className="font-label-sm text-label-sm text-emerald-accent">{item.location}</div>
+                  <div className="font-label-sm text-label-sm text-violet-accent">{item.location}</div>
                 </div>
               </div>
             </div>

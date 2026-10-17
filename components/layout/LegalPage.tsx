@@ -15,7 +15,7 @@ export function LegalPage({ document }: { document: LegalDocument }) {
       <Container className="grid grid-cols-1 xl:grid-cols-[300px_1fr] gap-space-2xl">
         <aside className="hidden xl:block">
           <div className="sticky top-28 space-y-space-lg">
-            <div className="font-label-caps text-label-caps uppercase text-forest-deep tracking-wider">
+            <div className="font-label-caps text-label-caps uppercase text-plum-deep tracking-wider">
               On this page
             </div>
             <nav aria-label={`${document.title} sections`}>
@@ -23,7 +23,7 @@ export function LegalPage({ document }: { document: LegalDocument }) {
                 {document.sections.map((section) => (
                   <li key={section.heading}>
                     <a
-                      className="block hover:text-forest-deep transition-colors leading-snug"
+                      className="block hover:text-plum-deep transition-colors leading-snug"
                       href={`#${slugify(section.heading)}`}
                     >
                       {section.heading}
@@ -33,7 +33,7 @@ export function LegalPage({ document }: { document: LegalDocument }) {
               </ul>
             </nav>
             <div className="flex items-center gap-space-xs text-label-sm font-label-sm text-slate-text-muted border-t border-slate-border pt-space-md">
-              <Icon name="update" className="text-[16px] text-forest-mid" />
+              <Icon name="update" className="text-[16px] text-plum-mid" />
               <span>Last updated {document.updated}</span>
             </div>
           </div>
@@ -44,7 +44,7 @@ export function LegalPage({ document }: { document: LegalDocument }) {
             {document.intro}
           </p>
           <div className="flex items-center gap-space-xs text-label-sm font-label-sm text-slate-text-muted xl:hidden">
-            <Icon name="update" className="text-[16px] text-forest-mid" />
+            <Icon name="update" className="text-[16px] text-plum-mid" />
             <span>Last updated {document.updated}</span>
           </div>
           {document.sections.map((section) => (
@@ -53,7 +53,7 @@ export function LegalPage({ document }: { document: LegalDocument }) {
               id={slugify(section.heading)}
               key={section.heading}
             >
-              <h2 className="font-headline-md text-headline-md text-forest-deep font-bold">
+              <h2 className="font-headline-md text-headline-md text-plum-deep font-bold">
                 {section.heading}
               </h2>
               {section.paragraphs.map((paragraph) => (
@@ -68,7 +68,7 @@ export function LegalPage({ document }: { document: LegalDocument }) {
                 <ul className="space-y-space-xs">
                   {section.bullets.map((bullet) => (
                     <li className="flex items-start gap-space-sm font-body-sm text-body-sm text-slate-text-muted" key={bullet}>
-                      <Icon name="check_circle" className="text-[18px] text-emerald-accent mt-0.5" />
+                      <Icon name="check_circle" className="text-[18px] text-violet-accent mt-0.5" />
                       <span>{bullet}</span>
                     </li>
                   ))}

@@ -1,4 +1,20 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
+  "/icon.svg/route": "app/icon.svg/route.js",
   "/page": "app/page.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/cookie-settings/page": "app/cookie-settings/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/blog/[slug]/page": "app/blog/[slug]/page.js",
+  "/case-studies/page": "app/case-studies/page.js",
+  "/privacy-policy/page": "app/privacy-policy/page.js",
+  "/podcasts/page": "app/podcasts/page.js",
+  "/careers/page": "app/careers/page.js",
+  "/case-studies/[slug]/page": "app/case-studies/[slug]/page.js",
+  "/security-sla/page": "app/security-sla/page.js",
+  "/podcasts/[slug]/page": "app/podcasts/[slug]/page.js",
+  "/terms-of-service/page": "app/terms-of-service/page.js",
+  "/services/page": "app/services/page.js",
   "/services/[slug]/page": "app/services/[slug]/page.js"
 }

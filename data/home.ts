@@ -17,7 +17,7 @@ export const HERO_SLIDES: HeroSlide[] = [
   {
     image: "/images/hero-boardroom.jpg",
     imageAlt:
-      "An executive offshore operations boardroom with international recruiters consulting over analytics dashboards on large displays, bathed in moody architectural emerald lighting and natural morning sunlight through floor-to-ceiling windows.",
+      "An executive offshore operations boardroom with international recruiters consulting over analytics dashboards on large displays, bathed in moody architectural lighting and natural morning sunlight through floor-to-ceiling windows.",
     badge: "YOUR OFFSHORE RECRUITMENT PARTNER",
     badgePulse: true,
     titleLead: "Build a Stronger Recruitment Business. ",
@@ -38,7 +38,7 @@ export const HERO_SLIDES: HeroSlide[] = [
   {
     image: "/images/hero-workspace.jpg",
     imageAlt:
-      "High-performing global virtual talent collaborating seamlessly in an upscale modern workspace with clean Scandinavian desks, dual monitor setups showing candidate pipelines, warm ambient architectural lighting and deep forest green accents.",
+      "High-performing global virtual talent collaborating seamlessly in an upscale modern workspace with clean Scandinavian desks, dual monitor setups showing candidate pipelines, warm ambient architectural lighting and deep accent tones.",
     badge: "PEOPLE WHO POWER YOUR PROGRESS",
     badgePulse: false,
     titleLead: "Exceptional Talent. Flexible Teams. ",

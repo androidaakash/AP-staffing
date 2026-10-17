@@ -27,10 +27,10 @@ export function ArticleCard({ article, priority = false }: ArticleCardProps) {
           />
         </div>
         <div className="p-space-lg pt-0 space-y-space-xs">
-          <span className="px-2 py-0.5 rounded text-xs bg-slate-surface text-forest-deep font-semibold uppercase">
+          <span className="px-2 py-0.5 rounded text-xs bg-slate-surface text-plum-deep font-semibold uppercase">
             {article.category}
           </span>
-          <h3 className="font-headline-sm text-[18px] text-slate-text-main font-bold leading-snug group-hover:text-forest-deep transition-colors">
+          <h3 className="font-headline-sm text-[18px] text-slate-text-main font-bold leading-snug group-hover:text-plum-deep transition-colors">
             {article.title}
           </h3>
           <p className="font-body-sm text-body-sm text-slate-text-muted line-clamp-2">

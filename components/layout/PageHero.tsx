@@ -14,9 +14,9 @@ type PageHeroProps = {
 
 export function PageHero({ label, heading, description, crumbs, children }: PageHeroProps) {
   return (
-    <section className="relative w-full bg-forest-deep text-on-primary overflow-hidden">
-      <div className="absolute -right-24 -top-24 w-96 h-96 rounded-full bg-emerald-accent/15 blur-3xl pointer-events-none" />
-      <div className="absolute -left-32 -bottom-32 w-96 h-96 rounded-full bg-forest-mid/50 blur-3xl pointer-events-none" />
+    <section className="relative w-full bg-plum-deep text-on-primary overflow-hidden">
+      <div className="absolute -right-24 -top-24 w-96 h-96 rounded-full bg-violet-accent/15 blur-3xl pointer-events-none" />
+      <div className="absolute -left-32 -bottom-32 w-96 h-96 rounded-full bg-plum-mid/50 blur-3xl pointer-events-none" />
       <Container className="relative z-10 py-space-2xl md:py-space-3xl space-y-space-lg">
         <nav aria-label="Breadcrumb">
           <ol className="flex flex-wrap items-center gap-space-xs font-label-sm text-label-sm text-primary-fixed">

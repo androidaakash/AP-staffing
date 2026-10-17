@@ -7,10 +7,10 @@ export function FinalCta() {
   return (
     <section className="w-full py-space-3xl bg-surface" id="get-started">
       <Container>
-        <div className="relative rounded-2xl bg-forest-deep text-on-primary p-space-2xl md:p-space-3xl overflow-hidden shadow-2xl">
-          <div className="absolute -right-20 -bottom-20 w-96 h-96 rounded-full bg-emerald-accent/15 blur-3xl pointer-events-none" />
+        <div className="relative rounded-2xl bg-plum-deep text-on-primary p-space-2xl md:p-space-3xl overflow-hidden shadow-2xl">
+          <div className="absolute -right-20 -bottom-20 w-96 h-96 rounded-full bg-violet-accent/15 blur-3xl pointer-events-none" />
           <div className="relative z-10 max-w-3xl space-y-space-lg">
-            <div className="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-forest-mid/60 text-primary-fixed font-label-caps text-label-caps uppercase tracking-wider">
+            <div className="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-plum-mid/60 text-primary-fixed font-label-caps text-label-caps uppercase tracking-wider">
               <span>{FINAL_CTA.badge}</span>
             </div>
             <h2 className="font-headline-xl text-headline-xl lg:text-[44px] lg:leading-[52px] text-surface-container-lowest font-extrabold tracking-tight">
@@ -21,7 +21,7 @@ export function FinalCta() {
             </p>
             <div className="flex flex-wrap items-center gap-space-md pt-space-xs">
               <BookCallButton
-                className="inline-flex items-center gap-space-xs px-space-xl py-space-md bg-amber-cta hover:bg-amber-hover text-surface-container-lowest font-label-md text-label-md font-bold rounded-lg shadow-xl hover:-translate-y-0.5 transition-all"
+                className="inline-flex items-center gap-space-xs px-space-xl py-space-md bg-violet-cta hover:bg-violet-cta-hover text-surface-container-lowest font-label-md text-label-md font-bold rounded-lg shadow-xl hover:-translate-y-0.5 transition-all"
                 label={FINAL_CTA.primaryLabel}
                 icon={FINAL_CTA.primaryIcon}
               />

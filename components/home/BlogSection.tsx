@@ -10,14 +10,14 @@ export function BlogSection() {
       <Container className="space-y-space-2xl">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
           <div className="space-y-space-xs max-w-xl">
-            <div className="font-label-caps text-label-caps text-emerald-accent tracking-widest uppercase font-bold">
+            <div className="font-label-caps text-label-caps text-violet-accent tracking-widest uppercase font-bold">
               {INSIGHTS.label}
             </div>
-            <h2 className="font-headline-xl text-headline-xl text-forest-deep font-bold">{INSIGHTS.heading}</h2>
+            <h2 className="font-headline-xl text-headline-xl text-plum-deep font-bold">{INSIGHTS.heading}</h2>
             <p className="font-body-md text-body-md text-slate-text-muted">{INSIGHTS.description}</p>
           </div>
           <Link
-            className="inline-flex items-center gap-space-xs font-label-md text-label-md text-forest-deep hover:text-emerald-accent font-bold group"
+            className="inline-flex items-center gap-space-xs font-label-md text-label-md text-plum-deep hover:text-violet-accent font-bold group"
             data-path="insights-blog"
             href="/blog"
           >

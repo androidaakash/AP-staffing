@@ -18,15 +18,15 @@ export function CaseStudyCard({ caseStudy }: { caseStudy: CaseStudy }) {
             fill
             sizes="(min-width: 1024px) 50vw, 100vw"
           />
-          <span className="absolute top-3 left-3 px-2 py-0.5 rounded bg-surface-container-lowest/90 text-forest-deep text-xs font-semibold">
+          <span className="absolute top-3 left-3 px-2 py-0.5 rounded bg-surface-container-lowest/90 text-plum-deep text-xs font-semibold">
             {caseStudy.region}
           </span>
         </div>
         <div className="p-space-lg space-y-space-sm">
-          <div className="font-label-caps text-label-caps text-emerald-accent uppercase font-bold">
+          <div className="font-label-caps text-label-caps text-violet-accent uppercase font-bold">
             {caseStudy.industry}
           </div>
-          <h3 className="font-headline-sm text-[18px] text-slate-text-main font-bold leading-snug group-hover:text-forest-deep transition-colors">
+          <h3 className="font-headline-sm text-[18px] text-slate-text-main font-bold leading-snug group-hover:text-plum-deep transition-colors">
             {caseStudy.client}
           </h3>
           <p className="font-body-sm text-body-sm text-slate-text-muted line-clamp-3">
@@ -35,7 +35,7 @@ export function CaseStudyCard({ caseStudy }: { caseStudy: CaseStudy }) {
           <div className="flex flex-wrap gap-space-lg pt-space-xs">
             {caseStudy.results.slice(0, 3).map((metric) => (
               <div key={metric.label}>
-                <div className="font-headline-sm text-headline-sm text-forest-deep font-extrabold">
+                <div className="font-headline-sm text-headline-sm text-plum-deep font-extrabold">
                   {metric.value}
                 </div>
                 <div className="text-xs text-slate-text-muted">{metric.label}</div>
@@ -45,7 +45,7 @@ export function CaseStudyCard({ caseStudy }: { caseStudy: CaseStudy }) {
         </div>
       </div>
       <div className="px-space-lg pb-space-lg">
-        <span className="inline-flex items-center gap-1 font-label-md text-label-md text-forest-mid group-hover:text-emerald-accent font-semibold">
+        <span className="inline-flex items-center gap-1 font-label-md text-label-md text-plum-mid group-hover:text-violet-accent font-semibold">
           Read case study
           <Icon name="arrow_forward" className="text-[16px]" />
         </span>

@@ -67,14 +67,14 @@ export default function EpisodePage({ params }: EpisodePageProps) {
         <Container className="grid grid-cols-1 lg:grid-cols-[1.6fr_1fr] gap-space-2xl items-start">
           <div className="space-y-space-2xl">
             <div className="space-y-space-md">
-              <div className="font-label-caps text-label-caps text-emerald-accent tracking-widest uppercase font-bold">
+              <div className="font-label-caps text-label-caps text-violet-accent tracking-widest uppercase font-bold">
                 EPISODE SUMMARY
               </div>
               <p className="font-body-lg text-body-lg text-slate-text-main leading-relaxed">{episode.summary}</p>
             </div>
 
             <div className="space-y-space-md">
-              <div className="font-label-caps text-label-caps text-emerald-accent tracking-widest uppercase font-bold">
+              <div className="font-label-caps text-label-caps text-violet-accent tracking-widest uppercase font-bold">
                 KEY TAKEAWAYS
               </div>
               <ul className="space-y-space-sm">
@@ -83,15 +83,15 @@ export default function EpisodePage({ params }: EpisodePageProps) {
                     className="flex items-start gap-space-sm bg-slate-surface rounded-lg p-space-md font-body-sm text-body-sm text-slate-text-main"
                     key={takeaway}
                   >
-                    <Icon name="lightbulb" className="text-[18px] text-emerald-accent mt-0.5 shrink-0" />
+                    <Icon name="lightbulb" className="text-[18px] text-violet-accent mt-0.5 shrink-0" />
                     <span>{takeaway}</span>
                   </li>
                 ))}
               </ul>
             </div>
 
-            <div className="bg-forest-deep text-on-primary rounded-2xl p-space-xl space-y-space-md">
-              <div className="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-forest-mid/60 text-primary-fixed font-label-caps text-label-caps uppercase tracking-wider">
+            <div className="bg-plum-deep text-on-primary rounded-2xl p-space-xl space-y-space-md">
+              <div className="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-plum-mid/60 text-primary-fixed font-label-caps text-label-caps uppercase tracking-wider">
                 <Icon name="headphones" className="text-[14px]" />
                 Full recording
               </div>
@@ -103,7 +103,7 @@ export default function EpisodePage({ params }: EpisodePageProps) {
                 we will send the recording together with the slide deck or transcript where available.
               </p>
               <a
-                className="inline-flex items-center gap-space-xs px-space-lg py-space-sm bg-amber-cta hover:bg-amber-hover text-surface-container-lowest font-label-md text-label-md font-bold rounded-lg transition-colors"
+                className="inline-flex items-center gap-space-xs px-space-lg py-space-sm bg-violet-cta hover:bg-violet-cta-hover text-surface-container-lowest font-label-md text-label-md font-bold rounded-lg transition-colors"
                 href={`mailto:advisory@aakashap.com?subject=${encodeURIComponent(`Episode recording request: ${episode.title}`)}`}
               >
                 <span>Request This Recording</span>
@@ -115,7 +115,7 @@ export default function EpisodePage({ params }: EpisodePageProps) {
           <aside className="space-y-space-lg lg:sticky lg:top-28">
             <div className="bg-surface-container-lowest rounded-xl shadow-sm p-space-xl space-y-space-md">
               <div className="flex items-center gap-space-md">
-                <div className="w-12 h-12 rounded-full bg-forest-deep text-on-primary flex items-center justify-center font-headline-sm font-bold">
+                <div className="w-12 h-12 rounded-full bg-plum-deep text-on-primary flex items-center justify-center font-headline-sm font-bold">
                   {episode.guest
                     .split(" ")
                     .map((part) => part[0])
@@ -134,13 +134,13 @@ export default function EpisodePage({ params }: EpisodePageProps) {
             </div>
 
             <div className="bg-slate-surface rounded-xl p-space-xl space-y-space-md">
-              <div className="font-label-caps text-label-caps uppercase text-forest-deep tracking-wider">
+              <div className="font-label-caps text-label-caps uppercase text-plum-deep tracking-wider">
                 Chapters
               </div>
               <ul className="space-y-space-sm">
                 {episode.chapters.map((chapter) => (
                   <li className="flex items-start gap-space-sm" key={chapter.time}>
-                    <span className="font-label-md text-label-md text-forest-mid font-semibold shrink-0 w-12">
+                    <span className="font-label-md text-label-md text-plum-mid font-semibold shrink-0 w-12">
                       {chapter.time}
                     </span>
                     <span className="font-body-sm text-body-sm text-slate-text-muted">{chapter.title}</span>
@@ -155,9 +155,9 @@ export default function EpisodePage({ params }: EpisodePageProps) {
       <section className="w-full pb-space-3xl bg-surface">
         <Container className="space-y-space-2xl">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
-            <h2 className="font-headline-xl text-headline-xl text-forest-deep font-bold">More Episodes.</h2>
+            <h2 className="font-headline-xl text-headline-xl text-plum-deep font-bold">More Episodes.</h2>
             <Link
-              className="inline-flex items-center gap-space-xs font-label-md text-label-md text-forest-deep hover:text-emerald-accent font-bold group"
+              className="inline-flex items-center gap-space-xs font-label-md text-label-md text-plum-deep hover:text-violet-accent font-bold group"
               href="/podcasts"
             >
               <span>View all episodes</span>

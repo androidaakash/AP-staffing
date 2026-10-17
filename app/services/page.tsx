@@ -34,7 +34,7 @@ export default function ServicesPage() {
       >
         <div className="flex flex-wrap items-center gap-space-md">
           <BookCallButton
-            className="inline-flex items-center gap-space-xs px-space-lg py-space-sm bg-amber-cta hover:bg-amber-hover text-surface-container-lowest font-label-md text-label-md font-bold rounded-lg shadow-xl hover:-translate-y-0.5 transition-all"
+            className="inline-flex items-center gap-space-xs px-space-lg py-space-sm bg-violet-cta hover:bg-violet-cta-hover text-surface-container-lowest font-label-md text-label-md font-bold rounded-lg shadow-xl hover:-translate-y-0.5 transition-all"
             label="Book a Discovery Call"
             icon="calendar_today"
             iconPosition="before"
@@ -58,10 +58,10 @@ export default function ServicesPage() {
           >
             <Container className="space-y-space-2xl">
               <div className="max-w-2xl space-y-space-sm">
-                <div className="font-label-caps text-label-caps text-emerald-accent tracking-widest uppercase font-bold">
+                <div className="font-label-caps text-label-caps text-violet-accent tracking-widest uppercase font-bold">
                   {category}
                 </div>
-                <h2 className="font-headline-xl text-headline-xl text-forest-deep font-bold">
+                <h2 className="font-headline-xl text-headline-xl text-plum-deep font-bold">
                   {category === "Recruitment Solutions"
                     ? "Recruitment delivery, built around your agency."
                     : "Business operations, handed over with confidence."}
@@ -78,11 +78,11 @@ export default function ServicesPage() {
                     key={service.slug}
                   >
                     <div className="space-y-space-md">
-                      <div className="w-14 h-14 rounded-lg bg-forest-deep text-on-primary flex items-center justify-center group-hover:bg-emerald-accent transition-colors">
+                      <div className="w-14 h-14 rounded-lg bg-plum-deep text-on-primary flex items-center justify-center group-hover:bg-violet-accent transition-colors">
                         <Icon name={service.icon} className="text-[28px]" />
                       </div>
                       <div className="space-y-space-xs">
-                        <h3 className="font-headline-md text-headline-md text-slate-text-main group-hover:text-forest-deep transition-colors">
+                        <h3 className="font-headline-md text-headline-md text-slate-text-main group-hover:text-plum-deep transition-colors">
                           {service.name}
                         </h3>
                         <p className="font-body-sm text-body-sm text-slate-text-muted leading-relaxed">
@@ -91,7 +91,7 @@ export default function ServicesPage() {
                       </div>
                     </div>
                     <div className="pt-space-md mt-space-md">
-                      <span className="inline-flex items-center gap-space-xs font-label-md text-label-md text-forest-mid group-hover:text-emerald-accent font-semibold">
+                      <span className="inline-flex items-center gap-space-xs font-label-md text-label-md text-plum-mid group-hover:text-violet-accent font-semibold">
                         <span>{service.cardLabel}</span>
                         <Icon name="chevron_right" className="text-[16px]" />
                       </span>

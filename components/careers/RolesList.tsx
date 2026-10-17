@@ -44,7 +44,7 @@ export function RolesList({ roles }: { roles: JobRole[] }) {
                 </div>
               </div>
               <div className="flex items-center gap-space-sm shrink-0">
-                <span className="px-2 py-0.5 rounded-full text-xs bg-slate-surface text-forest-deep font-semibold">
+                <span className="px-2 py-0.5 rounded-full text-xs bg-slate-surface text-plum-deep font-semibold">
                   {role.type}
                 </span>
                 <Icon
@@ -72,7 +72,7 @@ export function RolesList({ roles }: { roles: JobRole[] }) {
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
                     <div className="space-y-space-sm">
-                      <div className="font-label-caps text-label-caps uppercase text-forest-deep tracking-wider">
+                      <div className="font-label-caps text-label-caps uppercase text-plum-deep tracking-wider">
                         What you will do
                       </div>
                       <ul className="space-y-1.5">
@@ -81,14 +81,14 @@ export function RolesList({ roles }: { roles: JobRole[] }) {
                             className="flex items-start gap-space-sm font-body-sm text-body-sm text-slate-text-muted"
                             key={item}
                           >
-                            <span className="w-1.5 h-1.5 rounded-full bg-emerald-accent mt-2 shrink-0" />
+                            <span className="w-1.5 h-1.5 rounded-full bg-violet-accent mt-2 shrink-0" />
                             <span>{item}</span>
                           </li>
                         ))}
                       </ul>
                     </div>
                     <div className="space-y-space-sm">
-                      <div className="font-label-caps text-label-caps uppercase text-forest-deep tracking-wider">
+                      <div className="font-label-caps text-label-caps uppercase text-plum-deep tracking-wider">
                         What we look for
                       </div>
                       <ul className="space-y-1.5">
@@ -97,7 +97,7 @@ export function RolesList({ roles }: { roles: JobRole[] }) {
                             className="flex items-start gap-space-sm font-body-sm text-body-sm text-slate-text-muted"
                             key={item}
                           >
-                            <Icon name="check_circle" className="text-[16px] text-emerald-accent mt-0.5 shrink-0" />
+                            <Icon name="check_circle" className="text-[16px] text-violet-accent mt-0.5 shrink-0" />
                             <span>{item}</span>
                           </li>
                         ))}
@@ -105,7 +105,7 @@ export function RolesList({ roles }: { roles: JobRole[] }) {
                     </div>
                   </div>
                   <a
-                    className="inline-flex items-center gap-space-xs px-space-lg py-space-sm bg-emerald-accent hover:bg-forest-mid text-on-primary font-label-md text-label-md rounded-lg transition-colors"
+                    className="inline-flex items-center gap-space-xs px-space-lg py-space-sm bg-violet-accent hover:bg-plum-mid text-on-primary font-label-md text-label-md rounded-lg transition-colors"
                     href={`mailto:${CAREERS_EMAIL}?subject=${encodeURIComponent(`Application: ${role.title}`)}`}
                   >
                     <span>Apply for this role</span>

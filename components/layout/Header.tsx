@@ -14,7 +14,7 @@ import {
 } from "@/data/navigation";
 
 const navLinkClass =
-  "font-label-md text-label-md text-slate-text-muted hover:text-forest-deep transition-colors";
+  "font-label-md text-label-md text-slate-text-muted hover:text-plum-deep transition-colors";
 
 function Logo() {
   return (
@@ -27,7 +27,7 @@ function Logo() {
         height={32}
         priority
       />
-      <span className="font-headline-sm text-headline-sm tracking-tight text-forest-deep uppercase">
+      <span className="font-headline-sm text-headline-sm tracking-tight text-plum-deep uppercase">
         {SITE.name}
       </span>
     </Link>
@@ -70,7 +70,7 @@ function MegaMenu() {
         aria-controls="services-mega-menu"
         aria-expanded={open}
         className={`flex items-center gap-1 font-label-md text-label-md transition-colors focus:outline-none ${
-          open ? "text-forest-deep" : "text-slate-text-muted hover:text-forest-deep"
+          open ? "text-plum-deep" : "text-slate-text-muted hover:text-plum-deep"
         }`}
         onClick={() => setOpen((value) => !value)}
         type="button"
@@ -78,7 +78,7 @@ function MegaMenu() {
         <span>Services</span>
         <Icon
           name="expand_more"
-          className={`text-[18px] transition-transform duration-200 ${open ? "rotate-180 text-forest-deep" : "text-slate-text-muted"}`}
+          className={`text-[18px] transition-transform duration-200 ${open ? "rotate-180 text-plum-deep" : "text-slate-text-muted"}`}
         />
       </button>
       <div
@@ -92,9 +92,9 @@ function MegaMenu() {
         <div className="grid grid-cols-2 gap-space-xl">
           {MEGA_MENU.map((column) => (
             <div className="space-y-space-md" key={column.heading}>
-              <div className="flex items-center gap-space-xs text-forest-deep pb-space-xs border-b border-slate-border">
-                <Icon name={column.icon} className="text-[20px] text-forest-mid" />
-                <span className="font-label-caps text-label-caps uppercase tracking-wider text-forest-deep">
+              <div className="flex items-center gap-space-xs text-plum-deep pb-space-xs border-b border-slate-border">
+                <Icon name={column.icon} className="text-[20px] text-plum-mid" />
+                <span className="font-label-caps text-label-caps uppercase tracking-wider text-plum-deep">
                   {column.heading}
                 </span>
               </div>
@@ -107,7 +107,7 @@ function MegaMenu() {
                     key={link.label}
                     onClick={() => setOpen(false)}
                   >
-                    <div className="font-label-md text-label-md text-slate-text-main group-hover/item:text-forest-deep">
+                    <div className="font-label-md text-label-md text-slate-text-main group-hover/item:text-plum-deep">
                       {link.label}
                     </div>
                     <p className="font-body-sm text-body-sm text-slate-text-muted">{link.description}</p>
@@ -119,7 +119,7 @@ function MegaMenu() {
         </div>
         <div className="mt-space-lg pt-space-md border-t border-slate-border">
           <Link
-            className="inline-flex items-center gap-space-xs font-label-md text-label-md text-forest-mid hover:text-emerald-accent font-semibold"
+            className="inline-flex items-center gap-space-xs font-label-md text-label-md text-plum-mid hover:text-violet-accent font-semibold"
             data-path="services"
             href="/services"
             onClick={() => setOpen(false)}
@@ -185,7 +185,7 @@ export function Header() {
         <nav className="hidden xl:flex items-center gap-space-lg" aria-label="Primary">
           <Link
             aria-current="page"
-            className="transition-colors text-forest-deep font-semibold font-label-md text-label-md"
+            className="transition-colors text-plum-deep font-semibold font-label-md text-label-md"
             data-path="home"
             href="/"
           >
@@ -202,14 +202,14 @@ export function Header() {
 
         <div className="flex items-center gap-space-md">
           <BookCallButton
-            className="hidden sm:inline-flex items-center justify-center px-space-md py-space-sm bg-emerald-accent hover:bg-forest-mid text-on-primary font-label-md text-label-md rounded-lg shadow-[0_1px_3px_0_rgba(15,23,42,0.04)] transition-all duration-200"
+            className="hidden sm:inline-flex items-center justify-center px-space-md py-space-sm bg-violet-accent hover:bg-plum-mid text-on-primary font-label-md text-label-md rounded-lg shadow-[0_1px_3px_0_rgba(15,23,42,0.04)] transition-all duration-200"
             label="Book a Discovery Call"
           />
 
           <button
             aria-expanded={mobileOpen}
             aria-label={mobileOpen ? "Close navigation menu" : "Open navigation menu"}
-            className="xl:hidden flex items-center justify-center w-10 h-10 rounded-lg text-forest-deep hover:bg-slate-surface transition-colors"
+            className="xl:hidden flex items-center justify-center w-10 h-10 rounded-lg text-plum-deep hover:bg-slate-surface transition-colors"
             onClick={() => setMobileOpen((value) => !value)}
             type="button"
           >
@@ -225,7 +225,7 @@ export function Header() {
           }`}
         >
           <div
-            className="absolute inset-0 bg-forest-deep/40 backdrop-blur-sm"
+            className="absolute inset-0 bg-plum-deep/40 backdrop-blur-sm"
             onClick={() => setMobileOpen(false)}
             aria-hidden="true"
           />
@@ -236,7 +236,7 @@ export function Header() {
             aria-label="Mobile"
           >
             <Link
-              className="block py-space-sm font-label-md text-label-md text-forest-deep font-semibold border-b border-slate-border"
+              className="block py-space-sm font-label-md text-label-md text-plum-deep font-semibold border-b border-slate-border"
               href="/"
               onClick={() => setMobileOpen(false)}
             >
@@ -274,7 +274,7 @@ export function Header() {
                   <div className="space-y-space-md pt-space-sm">
                     {MEGA_MENU.map((column) => (
                       <div className="space-y-space-sm" key={column.heading}>
-                        <div className="font-label-caps text-label-caps uppercase tracking-wider text-forest-deep">
+                        <div className="font-label-caps text-label-caps uppercase tracking-wider text-plum-deep">
                           {column.heading}
                         </div>
                         {column.links.map((link) => (
@@ -291,7 +291,7 @@ export function Header() {
                       </div>
                     ))}
                     <Link
-                      className="flex items-center gap-space-xs p-space-sm font-label-md text-label-md text-forest-mid font-semibold"
+                      className="flex items-center gap-space-xs p-space-sm font-label-md text-label-md text-plum-mid font-semibold"
                       href="/services"
                       onClick={() => setMobileOpen(false)}
                     >
@@ -314,7 +314,7 @@ export function Header() {
             ))}
             <div className="space-y-space-sm pt-space-sm">
               <BookCallButton
-                className="w-full inline-flex items-center justify-center gap-space-xs px-space-md py-space-sm bg-emerald-accent hover:bg-forest-mid text-on-primary font-label-md text-label-md rounded-lg transition-colors"
+                className="w-full inline-flex items-center justify-center gap-space-xs px-space-md py-space-sm bg-violet-accent hover:bg-plum-mid text-on-primary font-label-md text-label-md rounded-lg transition-colors"
                 label="Book a Discovery Call"
                 icon="calendar_today"
                 iconPosition="before"

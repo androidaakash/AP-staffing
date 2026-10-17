@@ -12,7 +12,7 @@ export function TrustStrip() {
               className="flex items-start gap-space-md p-space-sm rounded-lg hover:bg-slate-surface transition-colors"
               key={item.title}
             >
-              <div className="w-12 h-12 rounded-lg bg-primary-fixed/30 text-forest-deep flex items-center justify-center shrink-0">
+              <div className="w-12 h-12 rounded-lg bg-primary-fixed/30 text-plum-deep flex items-center justify-center shrink-0">
                 <Icon name={item.icon} className="text-[26px]" />
               </div>
               <div className="space-y-1">

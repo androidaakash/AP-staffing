@@ -36,7 +36,7 @@ export default function CaseStudiesPage() {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-space-lg">
             {HEADLINE_STATS.map((stat) => (
               <div className="text-center space-y-1" key={stat.label}>
-                <div className="font-headline-xl text-headline-xl text-forest-deep font-extrabold">
+                <div className="font-headline-xl text-headline-xl text-plum-deep font-extrabold">
                   {stat.value}
                 </div>
                 <div className="font-body-sm text-body-sm text-slate-text-muted">{stat.label}</div>
@@ -49,10 +49,10 @@ export default function CaseStudiesPage() {
       <section className="w-full py-space-3xl bg-surface">
         <Container className="space-y-space-2xl">
           <div className="max-w-2xl space-y-space-sm">
-            <div className="font-label-caps text-label-caps text-emerald-accent tracking-widest uppercase font-bold">
+            <div className="font-label-caps text-label-caps text-violet-accent tracking-widest uppercase font-bold">
               THE DETAIL
             </div>
-            <h2 className="font-headline-xl text-headline-xl text-forest-deep font-bold">
+            <h2 className="font-headline-xl text-headline-xl text-plum-deep font-bold">
               Four Engagements. Four Bottlenecks Removed.
             </h2>
             <p className="font-body-md text-body-md text-slate-text-muted">

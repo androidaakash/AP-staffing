@@ -16,10 +16,10 @@ export function FaqSection() {
     <section className="w-full py-space-3xl bg-surface" id="faq">
       <Container className="space-y-space-2xl max-w-4xl">
         <div className="text-center space-y-space-sm">
-          <div className="font-label-caps text-label-caps text-emerald-accent tracking-widest uppercase font-bold">
+          <div className="font-label-caps text-label-caps text-violet-accent tracking-widest uppercase font-bold">
             {FAQS.label}
           </div>
-          <h2 className="font-headline-xl text-headline-xl text-forest-deep font-bold">{FAQS.heading}</h2>
+          <h2 className="font-headline-xl text-headline-xl text-plum-deep font-bold">{FAQS.heading}</h2>
           <p className="font-body-md text-body-md text-slate-text-muted">{FAQS.description}</p>
         </div>
         <div className="space-y-space-sm" id="faq-accordion">

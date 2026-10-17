@@ -35,11 +35,11 @@ export default function PodcastsPage() {
 
           <div className="bg-slate-surface rounded-2xl p-space-xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-lg">
             <div className="flex items-start gap-space-md">
-              <div className="w-12 h-12 rounded-lg bg-forest-deep text-on-primary flex items-center justify-center shrink-0">
+              <div className="w-12 h-12 rounded-lg bg-plum-deep text-on-primary flex items-center justify-center shrink-0">
                 <Icon name="mic" className="text-[24px]" />
               </div>
               <div className="space-y-1">
-                <div className="font-headline-sm text-headline-sm text-forest-deep font-bold">
+                <div className="font-headline-sm text-headline-sm text-plum-deep font-bold">
                   New episodes every month.
                 </div>
                 <p className="font-body-sm text-body-sm text-slate-text-muted max-w-xl">
@@ -49,7 +49,7 @@ export default function PodcastsPage() {
               </div>
             </div>
             <a
-              className="inline-flex items-center gap-space-xs px-space-lg py-space-sm bg-forest-deep hover:bg-forest-mid text-on-primary font-label-md text-label-md rounded-lg transition-colors whitespace-nowrap"
+              className="inline-flex items-center gap-space-xs px-space-lg py-space-sm bg-plum-deep hover:bg-plum-mid text-on-primary font-label-md text-label-md rounded-lg transition-colors whitespace-nowrap"
               href="mailto:advisory@aakashap.com?subject=Podcast%20topic%20suggestion"
             >
               <span>Suggest a Topic</span>

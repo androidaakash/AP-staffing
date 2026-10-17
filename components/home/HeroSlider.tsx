@@ -7,7 +7,7 @@ import { Icon } from "@/components/ui/Icon";
 import { HERO_SLIDES } from "@/data/home";
 
 const primaryCtaClass =
-  "inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-lg bg-emerald-accent hover:bg-forest-mid text-on-primary font-label-md text-label-md shadow-lg transition-all duration-200";
+  "inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-lg bg-violet-accent hover:bg-plum-mid text-on-primary font-label-md text-label-md shadow-lg transition-all duration-200";
 const ghostCtaClass =
   "inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-lg bg-surface-container-lowest/10 hover:bg-surface-container-lowest/20 text-on-primary font-label-md text-label-md backdrop-blur-sm transition-all duration-200";
 const headlineClass =
@@ -64,11 +64,11 @@ export function HeroSlider() {
                 loading={index === 0 ? undefined : "lazy"}
               />
             </div>
-            <div className="absolute inset-0 bg-gradient-to-r from-forest-deep via-forest-deep/90 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-r from-plum-deep via-plum-deep/90 to-transparent" />
             <div className="relative z-10 max-w-4xl space-y-space-lg">
-              <div className="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-forest-mid/60 text-primary-fixed font-label-caps text-label-caps tracking-widest uppercase">
+              <div className="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-plum-mid/60 text-primary-fixed font-label-caps text-label-caps tracking-widest uppercase">
                 <span
-                  className={`w-2 h-2 rounded-full bg-emerald-accent ${slide.badgePulse ? "animate-pulse" : ""}`}
+                  className={`w-2 h-2 rounded-full bg-violet-accent ${slide.badgePulse ? "animate-pulse" : ""}`}
                 />
                 {slide.badge}
               </div>
@@ -138,10 +138,10 @@ export function HeroSlider() {
             />
           ))}
         </div>
-        <div className="flex items-center gap-space-xs bg-forest-deep/80 backdrop-blur-md p-1 rounded-lg">
+        <div className="flex items-center gap-space-xs bg-plum-deep/80 backdrop-blur-md p-1 rounded-lg">
           <button
             aria-label="Previous Slide"
-            className="p-2 rounded-md hover:bg-forest-mid text-surface-container-lowest transition-colors"
+            className="p-2 rounded-md hover:bg-plum-mid text-surface-container-lowest transition-colors"
             onClick={() => goToSlide(current - 1)}
             type="button"
           >
@@ -149,7 +149,7 @@ export function HeroSlider() {
           </button>
           <button
             aria-label={playing ? "Pause Auto Play" : "Play Auto Play"}
-            className="p-2 rounded-md hover:bg-forest-mid text-surface-container-lowest transition-colors"
+            className="p-2 rounded-md hover:bg-plum-mid text-surface-container-lowest transition-colors"
             id="play-pause-btn"
             onClick={() => setPlaying((value) => !value)}
             type="button"
@@ -158,7 +158,7 @@ export function HeroSlider() {
           </button>
           <button
             aria-label="Next Slide"
-            className="p-2 rounded-md hover:bg-forest-mid text-surface-container-lowest transition-colors"
+            className="p-2 rounded-md hover:bg-plum-mid text-surface-container-lowest transition-colors"
             onClick={() => goToSlide(current + 1)}
             type="button"
           >

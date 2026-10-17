@@ -4,7 +4,7 @@ import { TRANSFORMATION } from "@/data/home";
 
 export function TransformationBanner() {
   return (
-    <section className="w-full py-space-2xl bg-gradient-to-r from-forest-deep via-forest-mid to-forest-deep text-on-primary" id="transformation">
+    <section className="w-full py-space-2xl bg-gradient-to-r from-plum-deep via-plum-mid to-plum-deep text-on-primary" id="transformation">
       <Container>
         <div className="p-space-2xl rounded-2xl bg-surface-container-lowest/5 backdrop-blur-md flex flex-col lg:flex-row items-center justify-between gap-space-xl">
           <div className="space-y-space-sm max-w-3xl">
@@ -20,7 +20,7 @@ export function TransformationBanner() {
           </div>
           <div className="shrink-0">
             <BookCallButton
-              className="inline-flex items-center gap-space-xs px-space-xl py-space-md bg-amber-cta hover:bg-amber-hover text-surface-container-lowest font-label-md text-label-md font-bold rounded-lg shadow-xl hover:-translate-y-0.5 transition-all"
+              className="inline-flex items-center gap-space-xs px-space-xl py-space-md bg-violet-cta hover:bg-violet-cta-hover text-surface-container-lowest font-label-md text-label-md font-bold rounded-lg shadow-xl hover:-translate-y-0.5 transition-all"
               label={TRANSFORMATION.buttonLabel}
               icon="arrow_forward"
               iconClassName="text-[20px]"

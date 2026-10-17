@@ -80,7 +80,7 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           <div className="space-y-space-2xl">
             {article.sections.map((section) => (
               <div className="space-y-space-md" key={section.heading}>
-                <h2 className="font-headline-lg text-headline-lg text-forest-deep font-bold">
+                <h2 className="font-headline-lg text-headline-lg text-plum-deep font-bold">
                   {section.heading}
                 </h2>
                 {section.paragraphs.map((paragraph) => (
@@ -95,7 +95,7 @@ export default function ArticlePage({ params }: ArticlePageProps) {
                         className="flex items-start gap-space-sm font-body-sm text-body-sm text-slate-text-main"
                         key={bullet}
                       >
-                        <Icon name="check_circle" className="text-[18px] text-emerald-accent mt-0.5 shrink-0" />
+                        <Icon name="check_circle" className="text-[18px] text-violet-accent mt-0.5 shrink-0" />
                         <span>{bullet}</span>
                       </li>
                     ))}
@@ -107,7 +107,7 @@ export default function ArticlePage({ params }: ArticlePageProps) {
 
           <div className="bg-slate-surface rounded-xl p-space-xl flex flex-col sm:flex-row items-start sm:items-center gap-space-md justify-between">
             <div className="flex items-center gap-space-md">
-              <div className="w-12 h-12 rounded-full bg-forest-deep text-on-primary flex items-center justify-center font-headline-sm font-bold">
+              <div className="w-12 h-12 rounded-full bg-plum-deep text-on-primary flex items-center justify-center font-headline-sm font-bold">
                 {article.author
                   .split(" ")
                   .map((part) => part[0])
@@ -129,9 +129,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
       <section className="w-full pb-space-3xl bg-surface">
         <Container className="space-y-space-2xl">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
-            <h2 className="font-headline-xl text-headline-xl text-forest-deep font-bold">Keep Reading.</h2>
+            <h2 className="font-headline-xl text-headline-xl text-plum-deep font-bold">Keep Reading.</h2>
             <Link
-              className="inline-flex items-center gap-space-xs font-label-md text-label-md text-forest-deep hover:text-emerald-accent font-bold group"
+              className="inline-flex items-center gap-space-xs font-label-md text-label-md text-plum-deep hover:text-violet-accent font-bold group"
               href="/blog"
             >
               <span>View all articles</span>

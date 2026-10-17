@@ -30,7 +30,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       "Within six months, a dedicated Manila sourcing pod lifted qualified submissions 2.4x and returned 38% of each consultant's week to client-facing work, without adding a single in-house hire.",
     image: "/images/hero-boardroom.jpg",
     imageAlt:
-      "An executive offshore operations boardroom with international recruiters consulting over analytics dashboards on large displays, bathed in moody architectural emerald lighting and natural morning sunlight through floor-to-ceiling windows.",
+      "An executive offshore operations boardroom with international recruiters consulting over analytics dashboards on large displays, bathed in moody architectural lighting and natural morning sunlight through floor-to-ceiling windows.",
     challenge: [
       "The agency's eight consultants were spending the majority of each week trawling job boards, reworking CVs, and chasing candidate availability rather than managing client relationships. Leadership calculated that more than half of every working day was disappearing into sourcing administration instead of revenue-generating activity.",
       "Roles in the £55k to £90k bracket were the worst affected: shortlists regularly slipped past the 14-day mark promised to clients, and two key accounts moved to formal service reviews. Preferred supplier status on a framework three years in the making was at risk.",
@@ -142,7 +142,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       "A Manchester property management company cut enquiry response times by 68% and reclaimed 30 hours of weekly property manager time with a dedicated virtual leasing desk on UK hours.",
     image: "/images/hero-workspace.jpg",
     imageAlt:
-      "High-performing global virtual talent collaborating seamlessly in an upscale modern workspace with clean Scandinavian desks, dual monitor setups showing candidate pipelines, warm ambient architectural lighting and deep forest green accents.",
+      "High-performing global virtual talent collaborating seamlessly in an upscale modern workspace with clean Scandinavian desks, dual monitor setups showing candidate pipelines, warm ambient architectural lighting and deep accent tones.",
     challenge: [
       "The lettings team was handling more than 900 enquiries a month across portals, email, and phone, and average first response time had stretched past 24 hours. Prospective tenants were booking viewings with competing agents before the team had even opened their enquiries.",
       "Property managers were absorbing referencing, tenancy paperwork, and deposit administration alongside inspections and maintenance coordination. Administrative work consumed roughly 60% of their week, and the tenancy file backlog was growing month on month.",

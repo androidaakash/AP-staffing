@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { BookingProvider } from "@/components/booking/BookingProvider";
 import { CookieBanner } from "@/components/consent/CookieBanner";
@@ -53,6 +53,10 @@ export const metadata: Metadata = {
   },
 };
 
+export const viewport: Viewport = {
+  themeColor: "#3B0764",
+};
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className="scroll-smooth">
@@ -68,7 +72,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           rel="stylesheet"
         />
       </head>
-      <body className="bg-surface font-body-md text-slate-text-main antialiased selection:bg-emerald-accent selection:text-on-primary">
+      <body className="bg-surface font-body-md text-slate-text-main antialiased selection:bg-violet-accent selection:text-on-primary">
         <BookingProvider>
           <SmoothScroll />
           <Header />

@@ -48,14 +48,14 @@ export default function BlogPage() {
             </div>
             <div className="p-space-xl lg:p-space-2xl flex flex-col justify-center gap-space-md">
               <div className="flex flex-wrap items-center gap-space-sm">
-                <span className="px-2 py-0.5 rounded text-xs bg-emerald-accent/10 text-emerald-accent font-semibold uppercase">
+                <span className="px-2 py-0.5 rounded text-xs bg-violet-accent/10 text-violet-accent font-semibold uppercase">
                   Featured
                 </span>
-                <span className="px-2 py-0.5 rounded text-xs bg-slate-surface text-forest-deep font-semibold uppercase">
+                <span className="px-2 py-0.5 rounded text-xs bg-slate-surface text-plum-deep font-semibold uppercase">
                   {featured.category}
                 </span>
               </div>
-              <h2 className="font-headline-lg text-headline-lg text-slate-text-main font-bold leading-snug group-hover:text-forest-deep transition-colors">
+              <h2 className="font-headline-lg text-headline-lg text-slate-text-main font-bold leading-snug group-hover:text-plum-deep transition-colors">
                 {featured.title}
               </h2>
               <p className="font-body-md text-body-md text-slate-text-muted">{featured.description}</p>
@@ -67,7 +67,7 @@ export default function BlogPage() {
                   {featured.readTime}
                 </span>
               </div>
-              <span className="inline-flex items-center gap-space-xs font-label-md text-label-md text-forest-mid group-hover:text-emerald-accent font-semibold">
+              <span className="inline-flex items-center gap-space-xs font-label-md text-label-md text-plum-mid group-hover:text-violet-accent font-semibold">
                 <span>Read article</span>
                 <Icon name="arrow_forward" className="text-[16px] group-hover:translate-x-1 transition-transform" />
               </span>

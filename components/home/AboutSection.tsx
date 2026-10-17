@@ -17,10 +17,10 @@ export function AboutSection() {
                 width={1408}
                 height={768}
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-forest-deep/60 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-plum-deep/60 via-transparent to-transparent" />
             </div>
             <div className="absolute -bottom-6 right-6 sm:bottom-8 sm:right-8 bg-surface-container-lowest p-space-lg rounded-xl shadow-xl max-w-xs space-y-1">
-              <div className="flex items-center gap-space-xs text-emerald-accent font-headline-sm text-headline-sm font-bold">
+              <div className="flex items-center gap-space-xs text-violet-accent font-headline-sm text-headline-sm font-bold">
                 <Icon name="verified" className="text-[24px]" />
                 <span>{ABOUT.badgeTitle}</span>
               </div>
@@ -32,10 +32,10 @@ export function AboutSection() {
           </div>
 
           <div className="lg:col-span-6 space-y-space-md">
-            <div className="font-label-caps text-label-caps text-emerald-accent tracking-widest uppercase font-bold">
+            <div className="font-label-caps text-label-caps text-violet-accent tracking-widest uppercase font-bold">
               {ABOUT.label}
             </div>
-            <h2 className="font-headline-xl text-headline-xl text-forest-deep font-bold leading-tight">
+            <h2 className="font-headline-xl text-headline-xl text-plum-deep font-bold leading-tight">
               {ABOUT.heading}
             </h2>
             <div className="space-y-space-sm font-body-md text-body-md text-slate-text-muted leading-relaxed">
@@ -46,7 +46,7 @@ export function AboutSection() {
             <ul className="space-y-space-sm pt-space-xs">
               {ABOUT.checklist.map((item) => (
                 <li className="flex items-start gap-space-sm font-body-md text-slate-text-main" key={item}>
-                  <span className="w-6 h-6 rounded-full bg-emerald-accent/10 text-emerald-accent flex items-center justify-center shrink-0 mt-0.5">
+                  <span className="w-6 h-6 rounded-full bg-violet-accent/10 text-violet-accent flex items-center justify-center shrink-0 mt-0.5">
                     <Icon name="check" className="text-[16px] font-bold" />
                   </span>
                   <span>{item}</span>
@@ -55,7 +55,7 @@ export function AboutSection() {
             </ul>
             <div className="pt-space-sm">
               <a
-                className="inline-flex items-center gap-space-xs font-label-md text-label-md text-forest-deep hover:text-emerald-accent font-bold group transition-colors"
+                className="inline-flex items-center gap-space-xs font-label-md text-label-md text-plum-deep hover:text-violet-accent font-bold group transition-colors"
                 data-path={ABOUT.link.dataPath}
                 href={ABOUT.link.href}
               >
