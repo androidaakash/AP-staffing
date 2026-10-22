@@ -10,11 +10,11 @@ import { StickyCallCta } from "@/components/layout/StickyCallCta";
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.aakashap.com"),
   title: {
-    default: "Aakash AP - Strategic Offshore Recruitment & BPO",
-    template: "%s | Aakash AP",
+    default: "Dream Gadge - Strategic Offshore Recruitment & BPO",
+    template: "%s | Dream Gadge",
   },
   description:
-    "Extend your recruitment capacity with dedicated offshore professionals. Aakash AP delivers offshore recruitment, virtual staffing, and back-office outsourcing for UK and US businesses.",
+    "Extend your recruitment capacity with dedicated offshore professionals. Dream Gadge delivers offshore recruitment, virtual staffing, and back-office outsourcing for UK and US businesses.",
   keywords: [
     "offshore recruitment",
     "RPO",
@@ -24,11 +24,11 @@ export const metadata: Metadata = {
     "offshore staffing UK US",
   ],
   openGraph: {
-    title: "Aakash AP - Strategic Offshore Recruitment & BPO",
+    title: "Dream Gadge - Strategic Offshore Recruitment & BPO",
     description:
       "Build a stronger recruitment business without growing your overheads. Dedicated offshore recruitment, virtual staffing, and back-office teams for UK and US businesses.",
     url: "/",
-    siteName: "Aakash AP",
+    siteName: "Dream Gadge",
     locale: "en_GB",
     type: "website",
     images: [
@@ -36,13 +36,13 @@ export const metadata: Metadata = {
         url: "/images/hero-boardroom.jpg",
         width: 1408,
         height: 768,
-        alt: "Aakash AP executive offshore operations boardroom",
+        alt: "Dream Gadge executive offshore operations boardroom",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aakash AP - Strategic Offshore Recruitment & BPO",
+    title: "Dream Gadge - Strategic Offshore Recruitment & BPO",
     description:
       "Dedicated offshore recruitment, virtual staffing, and back-office teams for UK and US businesses.",
     images: ["/images/hero-boardroom.jpg"],

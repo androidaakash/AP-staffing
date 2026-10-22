@@ -6,7 +6,7 @@ import { PRIVACY_POLICY } from "@/data/legal";
 export const metadata: Metadata = {
   title: PRIVACY_POLICY.title,
   description:
-    "How Aakash AP Ltd collects, uses and protects personal data across our offshore delivery network, in line with UK GDPR and international data protection law.",
+    "How Dream Gadge Ltd collects, uses and protects personal data across our offshore delivery network, in line with UK GDPR and international data protection law.",
   alternates: {
     canonical: "/privacy-policy",
   },

@@ -120,7 +120,7 @@ export const ABOUT = {
   label: "WHO WE ARE",
   heading: "Your Growth Partner Behind the Scenes.",
   paragraphs: [
-    "At Aakash AP, we don't operate as a disconnected call center. We embed dedicated, experienced recruiters and business operations professionals straight into your daily operating cadence.",
+    "At Dream Gadge, we don't operate as a disconnected call center. We embed dedicated, experienced recruiters and business operations professionals straight into your daily operating cadence.",
     "Whether you are an ambitious recruitment agency scaling requisition intake or a professional enterprise streamlining administrative pipelines, our teams act as a dependable extension of your in-house staff.",
   ],
   checklist: [
@@ -322,11 +322,11 @@ export const TESTIMONIALS = {
   label: "VERIFIED TESTIMONIALS",
   heading: "Trusted Partnerships. Meaningful Progress.",
   description:
-    "Hear from recruitment agency leaders who unlocked 40%+ operational leverage with Aakash AP.",
+    "Hear from recruitment agency leaders who unlocked 40%+ operational leverage with Dream Gadge.",
   items: [
     {
       quote:
-        '"Bringing in Aakash AP\'s candidate sourcing pod allowed our London tech agency to double live job fills in Q3 without leasing extra office desk space. Their recruiters speak our market vernacular natively."',
+        '"Bringing in Dream Gadge\'s candidate sourcing pod allowed our London tech agency to double live job fills in Q3 without leasing extra office desk space. Their recruiters speak our market vernacular natively."',
       initials: "AC",
       name: "Alistair Crawford",
       role: "Managing Director • TechSearch UK",
@@ -342,7 +342,7 @@ export const TESTIMONIALS = {
     },
     {
       quote:
-        '"We were skeptical of offshore models after a bad experience with generic freelancers. Aakash AP is entirely different—accountability, dedicated managers, and direct Bullhorn integration."',
+        '"We were skeptical of offshore models after a bad experience with generic freelancers. Dream Gadge is entirely different—accountability, dedicated managers, and direct Bullhorn integration."',
       initials: "SP",
       name: "Sarah Pendelton",
       role: "Founder • Pendelton Executive",

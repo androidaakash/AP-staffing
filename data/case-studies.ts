@@ -70,7 +70,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       role: "Managing Director",
     },
     seo: {
-      title: "UK Tech Recruitment Agency Case Study | Aakash AP",
+      title: "UK Tech Recruitment Agency Case Study | Dream Gadge",
       description:
         "How a London technology recruitment agency used a dedicated Manila sourcing pod to lift qualified submissions 2.4x and return 38% of consultant time to clients.",
     },
@@ -126,7 +126,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       role: "Vice President of Operations",
     },
     seo: {
-      title: "US Healthcare Credentialing Case Study | Aakash AP",
+      title: "US Healthcare Credentialing Case Study | Dream Gadge",
       description:
         "How a New York healthcare staffing group cleared a 400-file credentialing backlog and cut credential turnaround from 23 days to 6 with an offshore pod.",
     },
@@ -182,7 +182,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       role: "Lettings Director",
     },
     seo: {
-      title: "Property Lettings Operations Case Study | Aakash AP",
+      title: "Property Lettings Operations Case Study | Dream Gadge",
       description:
         "How a Manchester property management company cut enquiry response times by 68% and reclaimed 30 hours of weekly property manager time with a virtual desk.",
     },
@@ -238,7 +238,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       role: "Managing Partner",
     },
     seo: {
-      title: "Professional Services Admin Case Study | Aakash AP",
+      title: "Professional Services Admin Case Study | Dream Gadge",
       description:
         "How a European professional services firm moved cross-border admin into a Krakow pod, cutting month-end close to 4 days and saving £120k a year.",
     },

@@ -9,7 +9,7 @@ import { EPISODES, PODCASTS } from "@/data/podcasts";
 export const metadata: Metadata = {
   title: "Podcasts & Executive Conversations",
   description:
-    "Expert roundtables with global recruitment innovators exploring offshore leverage, AI sourcing and scaling strategies. Listen to The Aakash AP Podcast.",
+    "Expert roundtables with global recruitment innovators exploring offshore leverage, AI sourcing and scaling strategies. Listen to The Dream Gadge Podcast.",
   alternates: {
     canonical: "/podcasts",
   },

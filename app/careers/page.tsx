@@ -15,7 +15,7 @@ import {
 } from "@/data/careers";
 
 export const metadata: Metadata = {
-  title: "Careers at Aakash AP",
+  title: "Careers at Dream Gadge",
   description:
     "Join a high-governance offshore delivery network across Manila, Cape Town, Krakow and Bangalore. Work directly with UK and US recruitment agencies and enterprises.",
   alternates: {
@@ -54,7 +54,7 @@ export default function CareersPage() {
         <Container className="grid grid-cols-1 lg:grid-cols-2 gap-space-2xl items-center">
           <div className="space-y-space-md">
             <div className="font-label-caps text-label-caps text-violet-accent tracking-widest uppercase font-bold">
-              WHY AAKASH AP
+              WHY Dream Gadge
             </div>
             <h2 className="font-headline-lg text-headline-lg text-plum-deep font-bold">
               Real Clients. Real Ownership. Real Progression.

@@ -15,13 +15,13 @@ export const PRIVACY_POLICY: LegalDocument = {
   label: "LEGAL",
   updated: "1 September 2025",
   intro:
-    "This Privacy Policy explains how Aakash AP Ltd collects, uses, and protects personal information when you visit our website, engage our services, or apply for a role with us. We are committed to handling personal data lawfully, transparently, and with the same governance standards we apply to our clients. If you have any questions, please contact us at advisory@aakashap.com.",
+    "This Privacy Policy explains how Dream Gadge Ltd collects, uses, and protects personal information when you visit our website, engage our services, or apply for a role with us. We are committed to handling personal data lawfully, transparently, and with the same governance standards we apply to our clients. If you have any questions, please contact us at advisory@aakashap.com.",
   sections: [
     {
       heading: "Who We Are",
       paragraphs: [
-        "Aakash AP Ltd is a company registered in England and Wales that provides offshore recruitment process outsourcing and business process outsourcing services to clients in the United Kingdom, the United States, and internationally. Our delivery centres are located in Manila, Cape Town, Krakow, and Bangalore.",
-        "For the purposes of UK data protection law, Aakash AP Ltd is the data controller for personal information processed through this website and in the course of our own business operations. Where we process candidate or client data on behalf of a client organisation, we act as a data processor and the client remains the controller.",
+        "Dream Gadge Ltd is a company registered in England and Wales that provides offshore recruitment process outsourcing and business process outsourcing services to clients in the United Kingdom, the United States, and internationally. Our delivery centres are located in Manila, Cape Town, Krakow, and Bangalore.",
+        "For the purposes of UK data protection law, Dream Gadge Ltd is the data controller for personal information processed through this website and in the course of our own business operations. Where we process candidate or client data on behalf of a client organisation, we act as a data processor and the client remains the controller.",
       ],
     },
     {
@@ -96,7 +96,7 @@ export const PRIVACY_POLICY: LegalDocument = {
     {
       heading: "Contact Us",
       paragraphs: [
-        "If you have questions about this Privacy Policy, wish to exercise your rights, or want to make a data protection request, contact us at advisory@aakashap.com or by post at Aakash AP Ltd, London, United Kingdom. We will respond to verified requests within one month, as required by law.",
+        "If you have questions about this Privacy Policy, wish to exercise your rights, or want to make a data protection request, contact us at advisory@aakashap.com or by post at Dream Gadge Ltd, London, United Kingdom. We will respond to verified requests within one month, as required by law.",
         "If you are not satisfied with our response, you have the right to complain to the Information Commissioner's Office in the United Kingdom or to the supervisory authority in your country of residence.",
       ],
     },
@@ -109,12 +109,12 @@ export const TERMS_OF_SERVICE: LegalDocument = {
   label: "LEGAL",
   updated: "1 September 2025",
   intro:
-    "These Terms of Service govern the provision of recruitment process outsourcing, business process outsourcing, and related services by Aakash AP Ltd to its clients. By engaging our services or using this website, you agree to these terms unless a separate written agreement states otherwise. If you have questions, contact advisory@aakashap.com.",
+    "These Terms of Service govern the provision of recruitment process outsourcing, business process outsourcing, and related services by Dream Gadge Ltd to its clients. By engaging our services or using this website, you agree to these terms unless a separate written agreement states otherwise. If you have questions, contact advisory@aakashap.com.",
   sections: [
     {
       heading: "Scope of Services",
       paragraphs: [
-        "Aakash AP Ltd provides offshore recruitment process outsourcing and business process outsourcing services, which may include full cycle recruitment, candidate sourcing and screening, market intelligence, back office and administrative support, finance and accounting support, virtual staffing, and digital marketing services.",
+        "Dream Gadge Ltd provides offshore recruitment process outsourcing and business process outsourcing services, which may include full cycle recruitment, candidate sourcing and screening, market intelligence, back office and administrative support, finance and accounting support, virtual staffing, and digital marketing services.",
         "The specific services, deliverables, and performance expectations for each engagement are set out in a written statement of work, order form, or master services agreement signed by both parties. In the event of conflict, the order of precedence is the signed statement of work, then the master services agreement, then these terms.",
       ],
     },
@@ -149,7 +149,7 @@ export const TERMS_OF_SERVICE: LegalDocument = {
     {
       heading: "Intellectual Property",
       paragraphs: [
-        "Aakash AP Ltd retains all rights in its methodologies, frameworks, tools, templates, training materials, and know-how, including any improvements made during an engagement. The client retains all rights in its own materials, data, and systems made available to us.",
+        "Dream Gadge Ltd retains all rights in its methodologies, frameworks, tools, templates, training materials, and know-how, including any improvements made during an engagement. The client retains all rights in its own materials, data, and systems made available to us.",
         "Deliverables created specifically for the client under a statement of work are assigned to the client upon full payment of the associated fees, excluding our pre-existing and generally applicable materials, which remain our property and are licensed to the client for internal use.",
       ],
     },
@@ -197,7 +197,7 @@ export const COOKIE_POLICY: LegalDocument = {
   label: "LEGAL",
   updated: "1 September 2025",
   intro:
-    "This Cookie Policy explains what cookies are, how Aakash AP Ltd uses them on this website, and how you can manage your preferences. We keep our use of cookies deliberately light: essential cookies for core functionality and, with your consent, analytics cookies that help us improve the site. For any questions, contact advisory@aakashap.com.",
+    "This Cookie Policy explains what cookies are, how Dream Gadge Ltd uses them on this website, and how you can manage your preferences. We keep our use of cookies deliberately light: essential cookies for core functionality and, with your consent, analytics cookies that help us improve the site. For any questions, contact advisory@aakashap.com.",
   sections: [
     {
       heading: "What Are Cookies",
@@ -254,7 +254,7 @@ export const COOKIE_POLICY: LegalDocument = {
     {
       heading: "Contact Us",
       paragraphs: [
-        "If you have questions about our use of cookies or this policy, contact us at advisory@aakashap.com or by post at Aakash AP Ltd, London, United Kingdom. Further information about your privacy rights is available in our Privacy Policy.",
+        "If you have questions about our use of cookies or this policy, contact us at advisory@aakashap.com or by post at Dream Gadge Ltd, London, United Kingdom. Further information about your privacy rights is available in our Privacy Policy.",
       ],
     },
   ],
@@ -266,12 +266,12 @@ export const SECURITY_SLA: LegalDocument = {
   label: "TRUST & GOVERNANCE",
   updated: "1 September 2025",
   intro:
-    "Security and service quality are the foundation of every Aakash AP engagement. This document summarises the standards we hold ourselves to across our offshore delivery centres, from ISO 27001-aligned governance and virtual desktop infrastructure to published service level commitments. Detailed auditing evidence and contractual schedules are available to clients on request via advisory@aakashap.com.",
+    "Security and service quality are the foundation of every Dream Gadge engagement. This document summarises the standards we hold ourselves to across our offshore delivery centres, from ISO 27001-aligned governance and virtual desktop infrastructure to published service level commitments. Detailed auditing evidence and contractual schedules are available to clients on request via advisory@aakashap.com.",
   sections: [
     {
       heading: "Our Security Framework",
       paragraphs: [
-        "Aakash AP Ltd operates a documented information security management system aligned to ISO 27001, covering governance, risk assessment, access control, supplier management, and continual improvement. Policies are reviewed at least annually and updated in response to changes in threat landscape, client requirements, and regulatory obligations.",
+        "Dream Gadge Ltd operates a documented information security management system aligned to ISO 27001, covering governance, risk assessment, access control, supplier management, and continual improvement. Policies are reviewed at least annually and updated in response to changes in threat landscape, client requirements, and regulatory obligations.",
         "An internal security committee meets monthly to review incidents, audit findings, and remediation progress, reporting to executive leadership. All delivery centres operate to the same baseline controls, with local procedures tailored only where jurisdiction-specific law requires.",
       ],
     },
@@ -292,7 +292,7 @@ export const SECURITY_SLA: LegalDocument = {
     {
       heading: "Zero-Local-Data Policy",
       paragraphs: [
-        "Client and candidate data must never reside on local drives, personal devices, or removable media. Work product is created, stored, and transmitted exclusively within the client's approved systems or Aakash AP's access-controlled repositories, with encryption in transit and at rest.",
+        "Client and candidate data must never reside on local drives, personal devices, or removable media. Work product is created, stored, and transmitted exclusively within the client's approved systems or Dream Gadge's access-controlled repositories, with encryption in transit and at rest.",
         "Where clients provide systems such as Bullhorn, Vincere, or bespoke CRMs, access is provisioned through role-based permissions and multi-factor authentication. Offboarding is immediate: accounts, tokens, and device sessions are revoked within one business hour of a team member leaving an engagement.",
       ],
     },
@@ -331,7 +331,7 @@ export const SECURITY_SLA: LegalDocument = {
       ],
       bullets: [
         "Response time: acknowledgement of client queries and support requests within 4 business hours during agreed coverage windows.",
-        "Platform uptime: 99.5% availability for Aakash AP-managed delivery systems, measured monthly, excluding pre-announced maintenance windows.",
+        "Platform uptime: 99.5% availability for Dream Gadge-managed delivery systems, measured monthly, excluding pre-announced maintenance windows.",
         "Submission quality: at least 90% of shortlisted candidates meet the agreed brief on first submission, measured through client feedback and interview progression rates.",
         "Incident notification: confirmed personal data breaches communicated to affected clients within 24 hours of confirmation, with follow-up reporting as described above.",
         "Reporting: monthly performance dashboards covering service levels, delivery volumes, and quality metrics, reviewed in scheduled governance calls.",

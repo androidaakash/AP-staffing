@@ -7,7 +7,7 @@ import { SECURITY_SLA } from "@/data/legal";
 export const metadata: Metadata = {
   title: SECURITY_SLA.title,
   description:
-    "Aakash AP's information security framework and service level commitments: ISO 27001 alignment, GDPR and SOC 2 compliance, VDI infrastructure and SLA targets.",
+    "Dream Gadge's information security framework and service level commitments: ISO 27001 alignment, GDPR and SOC 2 compliance, VDI infrastructure and SLA targets.",
   alternates: {
     canonical: "/security-sla",
   },
@@ -26,7 +26,7 @@ export default function SecuritySlaPage() {
       <PageHero
         label={SECURITY_SLA.label}
         heading={SECURITY_SLA.title}
-        description="Enterprise-grade governance is not an add-on at Aakash AP; it is the baseline. Here is exactly how we protect client data and what our engagements commit to."
+        description="Enterprise-grade governance is not an add-on at Dream Gadge; it is the baseline. Here is exactly how we protect client data and what our engagements commit to."
         crumbs={[{ label: "Home", href: "/" }, { label: "Security & SLA" }]}
       >
         <div className="flex flex-wrap items-center gap-space-sm">

@@ -40,7 +40,7 @@ export function HeroSlider() {
     <section
       className="relative w-full overflow-hidden bg-primary text-on-primary"
       aria-roledescription="carousel"
-      aria-label="Aakash AP highlights"
+      aria-label="Dream Gadge highlights"
     >
       <div
         className="relative w-full min-h-[620px] lg:min-h-[700px] flex transition-transform duration-700 ease-out motion-reduce:transition-none"

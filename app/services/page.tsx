@@ -10,7 +10,7 @@ import { SERVICE_CATEGORIES, SERVICES } from "@/data/services";
 export const metadata: Metadata = {
   title: "Offshore Recruitment & Business Support Services",
   description:
-    "Explore Aakash AP's offshore services: full cycle recruitment pods, candidate sourcing, market intelligence, back-office BPO, finance support, virtual staffing and digital marketing.",
+    "Explore Dream Gadge's offshore services: full cycle recruitment pods, candidate sourcing, market intelligence, back-office BPO, finance support, virtual staffing and digital marketing.",
   alternates: {
     canonical: "/services",
   },
@@ -29,7 +29,7 @@ export default function ServicesPage() {
       <PageHero
         label="OUR SERVICES"
         heading="Practical Solutions for Ambitious Businesses."
-        description="From tactical candidate sourcing to total administrative offload, every Aakash AP service is engineered to add capacity without adding overhead. You keep control of clients, pricing and decisions while we carry the delivery load."
+        description="From tactical candidate sourcing to total administrative offload, every Dream Gadge service is engineered to add capacity without adding overhead. You keep control of clients, pricing and decisions while we carry the delivery load."
         crumbs={[{ label: "Home", href: "/" }, { label: "Services" }]}
       >
         <div className="flex flex-wrap items-center gap-space-md">

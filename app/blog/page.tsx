@@ -11,7 +11,7 @@ import { ARTICLES, INSIGHTS } from "@/data/insights";
 export const metadata: Metadata = {
   title: "Insights & Blog",
   description:
-    "Strategic insights on staffing economics, offshore delivery metrics and recruiting best practice from the Aakash AP leadership team.",
+    "Strategic insights on staffing economics, offshore delivery metrics and recruiting best practice from the Dream Gadge leadership team.",
   alternates: {
     canonical: "/blog",
   },

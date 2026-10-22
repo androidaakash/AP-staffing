@@ -1,5 +1,5 @@
 export const SITE = {
-  name: "Aakash AP",
+  name: "Dream Gadge",
   tagline: "Strategic Offshore Recruitment & BPO",
   email: "advisory@aakashap.com",
   phoneUK: "+44 20 7946 0912",
@@ -8,7 +8,7 @@ export const SITE = {
   logoMark: "/images/logo-mark.svg",
   avatar: "/images/avatar-profile.jpg",
   copyright:
-    "© 2025 Aakash AP Ltd. All rights reserved. Strategic offshore recruitment process outsourcing.",
+    "© 2025 Dream Gadge Ltd. All rights reserved. Strategic offshore recruitment process outsourcing.",
 } as const;
 
 export const CONTACT = {

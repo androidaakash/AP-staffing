@@ -8,7 +8,7 @@ import { COOKIE_POLICY } from "@/data/legal";
 export const metadata: Metadata = {
   title: COOKIE_POLICY.title,
   description:
-    "What cookies the Aakash AP website uses, why we use them, and how to manage your preferences at any time.",
+    "What cookies the Dream Gadge website uses, why we use them, and how to manage your preferences at any time.",
   alternates: {
     canonical: "/cookie-settings",
   },

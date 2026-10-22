@@ -8,7 +8,7 @@ import { CASE_STUDIES } from "@/data/case-studies";
 export const metadata: Metadata = {
   title: "Client Case Studies",
   description:
-    "Real results from Aakash AP engagements: sourcing pods, credentialing desks, leasing operations and professional services pods delivering measurable offshore outcomes.",
+    "Real results from Dream Gadge engagements: sourcing pods, credentialing desks, leasing operations and professional services pods delivering measurable offshore outcomes.",
   alternates: {
     canonical: "/case-studies",
   },

@@ -27,7 +27,7 @@ export const PODCASTS = {
 export const EPISODES: PodcastEpisode[] = [
   {
     slug: "restructuring-recruitment-overhead",
-    category: "The Aakash AP Podcast • Ep 24",
+    category: "The Dream Gadge Podcast • Ep 24",
     title: "Restructuring Recruitment Overhead: The Shift to Hybrid Global Teams",
     description:
       "How mid-sized UK staffing firms are maintaining 35% EBIT margins using integrated offshore desks.",
@@ -68,7 +68,7 @@ export const EPISODES: PodcastEpisode[] = [
     imageAlt:
       "A tech executive speaking on an international conference stage with widescreen presentations displaying recruitment pipeline efficiency metrics and global candidate workflow diagrams.",
     guest: "Elena Vasquez",
-    guestRole: "Head of Delivery, Aakash AP",
+    guestRole: "Head of Delivery, Dream Gadge",
     summary:
       "Elena Vasquez presents a keynote on why most recruitment databases quietly decay and how structured governance reverses the trend. She walks through hygiene routines inside Bullhorn, Vincere, and JobAdder, then shows how dormant candidate records become live placements once ownership and cadence are clearly defined.",
     takeaways: [
@@ -89,7 +89,7 @@ export const EPISODES: PodcastEpisode[] = [
   },
   {
     slug: "candidate-engagement-2025",
-    category: "The Aakash AP Podcast • Ep 25",
+    category: "The Dream Gadge Podcast • Ep 25",
     title: "Candidate Engagement in 2025: Why Automated Mass Messaging is Failing",
     description:
       "Why human-led personalisation paired with offshore scale yields 4x response rates across senior executives.",

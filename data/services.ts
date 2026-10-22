@@ -163,7 +163,7 @@ export const SERVICES: Service[] = [
       {
         question: "What happens if we need to scale down?",
         answer:
-          "Pods reduce with two to three weeks' notice. We manage any transition internally, and because every pod member is employed by Aakash AP there are no redundancy costs or HR overhead on your side.",
+          "Pods reduce with two to three weeks' notice. We manage any transition internally, and because every pod member is employed by Dream Gadge there are no redundancy costs or HR overhead on your side.",
       },
     ],
     seo: {
@@ -296,7 +296,7 @@ export const SERVICES: Service[] = [
       {
         question: "Will candidates know they are working with an offshore team?",
         answer:
-          "Candidates interact under your brand only. Our researchers never mention Aakash AP, and all outreach runs through your email domains and messaging standards so the candidate experience stays consistent from first contact.",
+          "Candidates interact under your brand only. Our researchers never mention Dream Gadge, and all outreach runs through your email domains and messaging standards so the candidate experience stays consistent from first contact.",
       },
       {
         question: "Can you work to our screening rubric?",
@@ -738,7 +738,7 @@ export const SERVICES: Service[] = [
     badges: ["Named dedicated staff", "Fully managed HR", "Two to three week onboarding"],
     overviewHeading: "Your team, without the employment overhead",
     overviewParagraphs: [
-      "Hiring in London, New York or Sydney is expensive and slow. Virtual staffing delivers the same capability from our delivery centres in Manila, Cape Town, Krakow and Bangalore. Every professional is employed by Aakash AP, so contracts, payroll, benefits and retention sit with us. You gain a dedicated team member at a predictable monthly cost.",
+      "Hiring in London, New York or Sydney is expensive and slow. Virtual staffing delivers the same capability from our delivery centres in Manila, Cape Town, Krakow and Bangalore. Every professional is employed by Dream Gadge, so contracts, payroll, benefits and retention sit with us. You gain a dedicated team member at a predictable monthly cost.",
       "Pods are shaped around your requirements: a single coordinator, a two-person research team or a full delivery unit with a team lead. Everyone is trained on your systems, from Bullhorn and Vincere to Slack, Xero and Microsoft Teams. Managers review performance monthly against agreed KPIs, and replacement cover is arranged within days if a fit is not right.",
     ],
     overviewPoints: [
@@ -839,7 +839,7 @@ export const SERVICES: Service[] = [
       {
         question: "Who employs the staff?",
         answer:
-          "Aakash AP employs every pod member, covering contracts, payroll, benefits, equipment and HR administration. You direct day-to-day work while we handle employment, welfare and performance management responsibilities.",
+          "Dream Gadge employs every pod member, covering contracts, payroll, benefits, equipment and HR administration. You direct day-to-day work while we handle employment, welfare and performance management responsibilities.",
       },
       {
         question: "Can we interview candidates first?",
@@ -865,7 +865,7 @@ export const SERVICES: Service[] = [
     seo: {
       title: "Virtual Staffing and Extended Offshore Pods",
       description:
-        "Dedicated virtual professionals employed and managed by Aakash AP, aligned to your tools and time zones, ready to work within two to three weeks.",
+        "Dedicated virtual professionals employed and managed by Dream Gadge, aligned to your tools and time zones, ready to work within two to three weeks.",
     },
   },
   {

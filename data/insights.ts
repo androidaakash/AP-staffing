@@ -232,7 +232,7 @@ export const ARTICLES: Article[] = [
         heading: "Confidentiality Is a Board-Level Commitment",
         paragraphs: [
           "Recruitment is a business built on trust. Agencies hold candidate identities, client hiring plans, salary bands, and commercially sensitive workforce data. Handing any part of that to an offshore partner is a governance decision, not a procurement detail.",
-          "Data protection is therefore treated at Aakash AP as a board-level commitment rather than an IT policy. This article explains the controls that sit behind that commitment, from contractual safeguards to physical security and day-to-day operational discipline.",
+          "Data protection is therefore treated at Dream Gadge as a board-level commitment rather than an IT policy. This article explains the controls that sit behind that commitment, from contractual safeguards to physical security and day-to-day operational discipline.",
         ],
       },
       {

@@ -11,12 +11,12 @@ export type JobRole = {
 };
 
 export const CAREERS_INTRO = {
-  label: "CAREERS AT AAKASH AP",
+  label: "CAREERS AT Dream Gadge",
   heading: "Build a Career Without Borders.",
   description:
     "Join a high-governance offshore delivery network spanning Manila, Cape Town, Krakow, and Bangalore. Work directly with UK and US recruitment agencies and enterprises on long-term engagements.",
   paragraphs: [
-    "Every Aakash AP professional embeds directly with a UK or US client, working inside real delivery teams with clear ownership from day one. You will be trained on our governance standards, data-protection protocols, and the exact systems your client uses, from Bullhorn and Vincere to JobAdder and bespoke CRMs.",
+    "Every Dream Gadge professional embeds directly with a UK or US client, working inside real delivery teams with clear ownership from day one. You will be trained on our governance standards, data-protection protocols, and the exact systems your client uses, from Bullhorn and Vincere to JobAdder and bespoke CRMs.",
     "Progression is transparent and merit-based, with structured reviews every quarter and funded certifications in recruitment, finance, and information security. Many of our team leads and pod managers joined as recruiters or coordinators and were promoted within eighteen months.",
   ],
 } as const;
@@ -243,7 +243,7 @@ export const ROLES: JobRole[] = [
     type: "Full-time",
     shift: "Flexible (UK/US overlap)",
     summary:
-      "Drive employer branding, content, and performance marketing for Aakash AP and our client recruitment brands. You will own campaigns end to end, from concept to reporting.",
+      "Drive employer branding, content, and performance marketing for Dream Gadge and our client recruitment brands. You will own campaigns end to end, from concept to reporting.",
     responsibilities: [
       "Plan and execute social media campaigns across LinkedIn, Instagram, and emerging channels.",
       "Write and optimise content including blogs, landing pages, email sequences, and ad copy.",
